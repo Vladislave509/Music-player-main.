@@ -1,0 +1,91 @@
+/* global settings */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@font-face {
+    font-family: "AmstelvarAlpha";
+    src: url("../fonts/AmstelvarAlpha-Variations.ttf");
+}
+
+@font-face {
+    font-family: "Rokkitt";
+    src: url("../fonts/Rokkitt-Regular.ttf");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* PC */
+
+.background {
+    position: absolute;
+}
+
+body>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-block {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-family: AmstelvarAlpha, sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: #FFF;
+    letter-spacing: 2px;
+    margin-bottom: 37px;
+}
+
+input {
+    font-family: Rokkitt, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 11.17px;
+    width: 430px;
+    height: 49.23px;
+    outline: none;
+}
+
+.auth-block {
+    margin-bottom: 37.09px;
+}
+
+.auth-block-part {
+    display: flex;
+    align-items: center;
+}
+
+.auth-block-part + .auth-block-part {
+    margin-top: 48.32px;
+}
+
+.icon {
+    margin-left: 18px;
+}
+
+button {
+    background: transparent;
+    width: 42px;
+    height: 21px;
+    border: none;
+}
+
+/* Mobile */
+
+@media screen and (min-width: 320px) and (min-height: 528px) {
+    
+}
+
